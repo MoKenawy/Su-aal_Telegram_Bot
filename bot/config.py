@@ -12,5 +12,10 @@ config = {
     "api_hash": os.environ['API_HASH'],
     "bot_token": os.environ['BOT_TOKEN'],
     "bot_session_file": BOT_SESSION_PATH,
-    "user_session_file": USER_SESSION_PATH
+    "user_session_file": USER_SESSION_PATH,
+    "student_chat_id": os.environ['STUDENT_CHAT_ID'],
+    "ques_group_id": os.environ['Ques_Group_ID'],
+    "ques_channel_id": os.environ['Ques_Channel_ID'],
+    "channel_access_hash": os.environ['CHANNEL_ACCESS_HASH']
+
 }

@@ -1,0 +1,8 @@
+message sent to group questions contains:
+اسم الطالب : 
+نوع السؤال : 
+السؤال :
+
+
+save the id of the parent message
+append questions to the parent message using the id

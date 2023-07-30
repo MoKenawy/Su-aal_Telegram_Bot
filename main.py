@@ -7,10 +7,14 @@ import traceback
 async def main():
     # Start the client
     await bot_client.start(bot_token=bot_token)
+    await user_client.start()
+
     for handler in handlers:
         bot_client.add_event_handler(handler)
+
     # Listen for events
     await bot_client.run_until_disconnected()
+
 
 
 if __name__ == "__main__":
